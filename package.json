@@ -13,6 +13,7 @@
     "sync": "npx tsx scripts/sync-posts.ts",
     "sync:prod": "SYNC_ENV=production npx tsx scripts/sync-posts.ts",
     "import": "npx tsx scripts/import-url.ts",
+    "transcript": "npx tsx scripts/fetch-youtube-transcript.ts",
     "configure": "npx tsx scripts/configure-fork.ts",
     "deploy": "npm run sync && npm run build",
     "deploy:prod": "npx convex deploy && npm run sync:prod"
@@ -32,7 +33,8 @@
     "react-router-dom": "^6.22.0",
     "react-syntax-highlighter": "^15.5.0",
     "remark-breaks": "^4.0.0",
-    "remark-gfm": "^4.0.0"
+    "remark-gfm": "^4.0.0",
+    "youtube-transcript": "^1.2.1"
   },
   "devDependencies": {
     "@types/node": "^25.0.2",
