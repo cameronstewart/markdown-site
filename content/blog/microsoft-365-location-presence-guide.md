@@ -1,11 +1,11 @@
 ---
 title: "Microsoft 365: How to know if you're in or out of the office"
-description: "A comprehensive guide to location and presence information in Microsoft 365. Learn how presence updates, calendar entries, Places, shared calendars, and Teams messages help communicate your location."
+description: "A comprehensive guide to location and presence information in Microsoft 365. Learn how presence updates, calendar entries, Places, Shifts, shared calendars, and Teams messages help communicate your location."
 date: "2026-01-16"
 slug: "microsoft-365-location-presence-guide"
 published: true
-tags: ["microsoft-365", "teams", "presence", "location", "office", "hybrid-work"]
-readTime: "8 min read"
+tags: ["microsoft-365", "teams", "presence", "location", "office", "hybrid-work", "shifts"]
+readTime: "10 min read"
 featured: true
 featuredOrder: 2
 authorName: "Markdown"
@@ -217,6 +217,100 @@ Pin a shared team calendar to a channel:
 3. Everyone has visibility in one place
 4. Reduces need for manual messages
 
+## Microsoft Shifts
+
+Microsoft Shifts is designed for frontline and shift-based teams, providing schedule management and location tracking in one place.
+
+### What is Shifts?
+
+Shifts is a schedule management tool built into Microsoft Teams:
+
+- Create and manage work schedules
+- Show who's working which shifts
+- Indicate work location for each shift
+- Enable shift swaps and time-off requests
+- Clock in/out functionality
+- Integration with time and attendance systems
+
+### Setting Up Shifts for Location Tracking
+
+Use Shifts to communicate location and schedule:
+
+1. Open Shifts in Microsoft Teams
+2. Create a new schedule or shift
+3. Assign team members to shifts
+4. Add location information to each shift:
+   - Office location
+   - Remote/Home
+   - Client site
+   - Specific department or area
+5. Publish the schedule for team visibility
+
+### Shifts Features for Location Awareness
+
+Key features that help with location tracking:
+
+- **Schedule view**: See the entire team's schedule at a glance
+- **Location labels**: Tag each shift with a specific location
+- **Shift notes**: Add context about where work is happening
+- **Time off**: Mark days when employees are out
+- **Open shifts**: Post available shifts with location details
+- **Mobile app**: Access schedules and clock in from anywhere
+
+### Shifts vs. Calendar
+
+While both track time and location, they serve different purposes:
+
+| Feature | Shifts | Calendar |
+|---------|--------|----------|
+| **Best for** | Shift workers, frontline teams | Knowledge workers, meetings |
+| **Updates** | Manager creates schedules | Individual controls own calendar |
+| **Visibility** | Team-wide shift roster | Personal or shared calendars |
+| **Location info** | Built into shift details | Event location field |
+| **Time tracking** | Clock in/out | Busy/free status |
+| **Typical users** | Retail, healthcare, hospitality | Office workers, hybrid teams |
+
+### Shifts Integration
+
+Shifts connects with other Microsoft 365 tools:
+
+- **Teams calendar**: Shifts appear in your personal Teams calendar
+- **Outlook**: Shifts can sync to Outlook calendar (with connector)
+- **Presence**: Working a shift automatically updates presence status
+- **Time tracking**: Integration with payroll and HR systems
+- **Power Automate**: Automate notifications when shifts are assigned
+
+### Use Cases for Shifts
+
+Shifts is particularly valuable for:
+
+- **Retail stores**: Track which employees are in which location
+- **Healthcare**: Manage nursing shifts across different units
+- **Hospitality**: Coordinate front desk, housekeeping schedules
+- **Manufacturing**: Track shift coverage across different facilities
+- **Field service**: Assign technicians to customer sites
+- **Multi-location teams**: Show which office or site each person is working
+
+### Mobile Clock In/Out
+
+The Shifts mobile app enables location-aware clock in:
+
+1. Open Shifts mobile app
+2. Clock in at the start of your shift
+3. Location services can verify you're at the right site
+4. Add notes about your location if needed
+5. Clock out at end of shift
+6. Hours and location are tracked automatically
+
+### Permissions and Roles
+
+Shifts has role-based access:
+
+- **Schedule owners**: Full control to create and manage shifts
+- **Team members**: View their own schedule, request changes
+- **Managers**: Approve time-off, shift swaps, view all schedules
+- **Read-only**: View schedules without making changes
+
 ## Best Practices
 
 ### Combine Multiple Signals
@@ -333,6 +427,7 @@ Modern work requires clear communication about location and availability. Micros
 - **Shared calendars** for team transparency
 - **Teams messages** for direct communication
 - **Channel messages** for group visibility
+- **Shifts** for shift-based team scheduling and location
 
 Use these tools together to create a complete picture of where you are and when you're available. The key is consistency, automation, and team agreement on which tools to use.
 
